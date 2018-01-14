@@ -1,0 +1,73 @@
+##########################################################################
+Run 'make -f Makevec' to compile the object
+make[1]: Entering directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+../../../bin/cint  -w2 -zvector -nG__cpp_vector.cxx  -D__MAKECINT__ -DG__MAKECINT  -c-1 -A -I/home/sysop/build/cint/root-5-34-00-patches/cint/cint/inc  -DG__SHAREDLIB -DG__OSFDLL -DG__ANSI -DG__ERRORCALLBACK -DG__SIGNEDCHAR -DG__NEWSTDHEADER -DG__CINT_VER6 -DG__NATIVELONGLONG -DG__P2FCAST -DG__STD_EXCEPTION -DG__HAVE_CONFIG -DG__NOMAKEINFO  -DG__NOALGORITHM -Z0 vec.h
+Error: No matching constructor for explicit conversion string(string()) FILE:prec_stl/vector LINE:497
+!!!Removing G__cpp_vector.cxx G__cpp_vector.h !!!
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Makevec:71: recipe for target 'G__cpp_vector.cxx' failed
+make[1]: *** [G__cpp_vector.cxx] Error 1
+make[1]: Leaving directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+mv: cannot stat ‘vector.dll’: No such file or directory
+
+##########################################################################
+Run 'make -f Makelist' to compile the object
+make[1]: Entering directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+../../../bin/cint  -w2 -zlist -nG__cpp_list.cxx  -D__MAKECINT__ -DG__MAKECINT  -c-1 -A -I/home/sysop/build/cint/root-5-34-00-patches/cint/cint/inc  -DG__SHAREDLIB -DG__OSFDLL -DG__ANSI -DG__ERRORCALLBACK -DG__SIGNEDCHAR -DG__NEWSTDHEADER -DG__CINT_VER6 -DG__NATIVELONGLONG -DG__P2FCAST -DG__STD_EXCEPTION -DG__HAVE_CONFIG -DG__NOMAKEINFO  -DG__NOALGORITHM -Z0 lst.h
+Error: No matching constructor for explicit conversion string(string()) FILE:prec_stl/list LINE:204
+!!!Removing G__cpp_list.cxx G__cpp_list.h !!!
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Makelist:71: recipe for target 'G__cpp_list.cxx' failed
+make[1]: *** [G__cpp_list.cxx] Error 1
+make[1]: Leaving directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+mv: cannot stat ‘list.dll’: No such file or directory
+
+##########################################################################
+Run 'make -f Makestk' to compile the object
+make[1]: Entering directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+../../../bin/cint  -w2 -zstack -nG__cpp_stack.cxx  -D__MAKECINT__ -DG__MAKECINT  -c-1 -A -I/home/sysop/build/cint/root-5-34-00-patches/cint/cint/inc  -DG__SHAREDLIB -DG__OSFDLL -DG__ANSI -DG__ERRORCALLBACK -DG__SIGNEDCHAR -DG__NEWSTDHEADER -DG__CINT_VER6 -DG__NATIVELONGLONG -DG__P2FCAST -DG__STD_EXCEPTION -DG__HAVE_CONFIG -DG__NOMAKEINFO
+ -Z0 stk.h
+Error: No matching constructor for explicit conversion string(string()) FILE:prec_stl/deque LINE:167
+Note: link requested for unknown class stack<string> FILE:stk.h LINE:37
+!!!Removing G__cpp_stack.cxx G__cpp_stack.h !!!
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Makestk:71: recipe for target 'G__cpp_stack.cxx' failed
+make[1]: *** [G__cpp_stack.cxx] Error 1
+make[1]: Leaving directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+mv: cannot stat ‘stack.dll’: No such file or directory
+
+##########################################################################
+Run 'make -f Makeque' to compile the object
+make[1]: Entering directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+../../../bin/cint  -w2 -zqueue -nG__cpp_queue.cxx  -D__MAKECINT__ -DG__MAKECINT  -c-1 -A -I/home/sysop/build/cint/root-5-34-00-patches/cint/cint/inc  -DG__SHAREDLIB -DG__OSFDLL -DG__ANSI -DG__ERRORCALLBACK -DG__SIGNEDCHAR -DG__NEWSTDHEADER -DG__CINT_VER6 -DG__NATIVELONGLONG -DG__P2FCAST -DG__STD_EXCEPTION -DG__HAVE_CONFIG -DG__NOMAKEINFO
+ -Z0 que.h
+Error: No matching constructor for explicit conversion string(string()) FILE:prec_stl/deque LINE:167
+Note: link requested for unknown class queue<string> FILE:que.h LINE:37
+!!!Removing G__cpp_queue.cxx G__cpp_queue.h !!!
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Makeque:71: recipe for target 'G__cpp_queue.cxx' failed
+make[1]: *** [G__cpp_queue.cxx] Error 1
+make[1]: Leaving directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+mv: cannot stat ‘queue.dll’: No such file or directory
+
+##########################################################################
+Run 'make -f Makeeh' to compile the object
+make[1]: Entering directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+../../../bin/cint  -w2 -zexception -nG__cpp_exception.cxx  -D__MAKECINT__ -DG__MAKECINT  -c-1 -A -I/home/sysop/build/cint/root-5-34-00-patches/cint/cint/inc  -DG__SHAREDLIB -DG__OSFDLL -DG__ANSI -DG__ERRORCALLBACK -DG__SIGNEDCHAR -DG__NEWSTDHEADER -DG__CINT_VER6 -DG__NATIVELONGLONG -DG__P2FCAST -DG__STD_EXCEPTION -DG__HAVE_CONFIG -DG__NOMAKEINFO  -Z0 cinteh.h
+Error: No matching constructor for explicit conversion string("") FILE:cinteh.h LINE:28
+!!!Removing G__cpp_exception.cxx G__cpp_exception.h !!!
+Error: Symbol null is not defined in current scope  FILE: LINE:0
+Makeeh:71: recipe for target 'G__cpp_exception.cxx' failed
+make[1]: *** [G__cpp_exception.cxx] Error 1
+make[1]: Leaving directory '/home/sysop/build/cint/root-5-34-00-patches/cint/cint/lib/dll_stl'
+mv: cannot stat ‘exception.dll’: No such file or directory
+
+
