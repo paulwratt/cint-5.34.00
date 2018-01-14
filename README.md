@@ -3,7 +3,9 @@ The last working version of "cint" C/C++ Interpreter, pulled from within "root-5
 
 To compile, supply the path to "libreadline.a", if it is not "/usr/(local)/lib/libreadline.a". For example on the Raspberry Pi:
 
-  ./configure --readlinelib=/usr/lib/arm-linux-gnueabihf/libreadline.a
+```
+./configure --readlinelib=/usr/lib/arm-linux-gnueabihf/libreadline.a
+```
 
 When you run **make** you will get 4 errors, after _cint_ itself has been built, while compiling with _makecint_. Those errors are contained within **fixme.txt**, you are welcome to submit patches.
 
@@ -16,7 +18,9 @@ The old v5.16.19 will build, also with **GCC-6.1.0**, but it fails seriously whe
 
 This version will not build with **GCC-6.1.0**, exiting with:
 
-  tool/rmkdepend/rmkdepend: /usr/lib/arm-linux-gnueabihf/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by tool/rmkdepend/rmkdepend)
+```
+tool/rmkdepend/rmkdepend: /usr/lib/arm-linux-gnueabihf/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by tool/rmkdepend/rmkdepend)
+```
 
 Again, patches are welcome, but please maintain **GCC-4.9** ability to compile.
 
